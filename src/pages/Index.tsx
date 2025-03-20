@@ -67,12 +67,12 @@ const Index = () => {
             <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-8">
               <a href="#" className="text-foreground/70 hover:text-primary transition-colors">Terms of Service</a>
               <a href="#" className="text-foreground/70 hover:text-primary transition-colors">Privacy Policy</a>
-              <a href="#" className="text-foreground/70 hover:text-primary transition-colors">Contact</a>
+              <a href="https://wa.me/+2349120744751" className="text-foreground/70 hover:text-primary transition-colors">Contact</a>
             </div>
           </div>
           
           <div className="border-t border-border mt-8 pt-8 text-center text-foreground/60 text-sm">
-            <p>© {new Date().getFullYear()} RideMatch. All rights reserved.</p>
+            <p>© 2025 Bwrite. All rights reserved.</p>
           </div>
         </div>
       </footer>
