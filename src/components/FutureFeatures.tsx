@@ -6,37 +6,37 @@ const features = [
     title: 'Ride Cost Splitting',
     description: 'Split bike fare with your ride partner easily.',
     icon: CreditCard,
-    comingSoon: 'Coming Spring 2024'
+    comingSoon: 'Coming soon'
   },
   {
     title: 'Saved Matching History',
     description: 'View your past ride matches and partner details.',
     icon: History,
-    comingSoon: 'Coming Summer 2024'
+    comingSoon: 'Coming soon'
   },
   {
     title: 'Ride Rating System',
     description: 'Rate partners for reliability and courtesy.',
     icon: Star,
-    comingSoon: 'Coming Fall 2024'
+    comingSoon: 'Coming soon'
   },
   {
     title: 'Audio Notifications',
     description: 'Get alerted when your ride match is found.',
     icon: Volume2,
-    comingSoon: 'Coming Spring 2024'
+    comingSoon: 'Coming soon'
   },
   {
     title: 'Auto Reset Availability',
     description: 'Automatically reset if no match is found.',
     icon: Clock,
-    comingSoon: 'Coming Summer 2024'
+    comingSoon: 'Coming soon'
   },
   {
     title: 'Interactive UI',
     description: 'Enjoy animated elements for better engagement.',
     icon: Zap,
-    comingSoon: 'Coming Fall 2024'
+    comingSoon: 'Coming soon'
   }
 ];
 
