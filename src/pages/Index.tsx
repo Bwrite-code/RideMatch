@@ -72,7 +72,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-border mt-8 pt-8 text-center text-foreground/60 text-sm">
-            <p>© 2025 Bwrite. All rights reserved.</p>
+            <p>© 2025 Technokwrite. All rights reserved.</p>
           </div>
         </div>
       </footer>

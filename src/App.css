@@ -38,5 +38,19 @@
 }
 
 .read-the-docs {
+/* Bike animation styles */
+.bike {
+  position: absolute;
+  width: 100px;
+  top: 50px;
+  animation: ride 4s linear infinite;
+}
+
+@keyframes ride {
+  0%   { left: 0; transform: scaleX(1); }
+  50%  { left: calc(100% - 100px); transform: scaleX(1); }
+  50.01% { transform: scaleX(-1); }
+  100% { left: 0; transform: scaleX(-1); }
+}
   color: #888;
 }

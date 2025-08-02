@@ -50,18 +50,22 @@ const Navbar = () => {
           >
             Find a Ride
           </Link>
-          <button 
-            onClick={() => inactiveFeatureAlert('History')}
-            className="font-medium text-foreground/60 cursor-not-allowed"
+          <Link 
+            to="/history" 
+            className={`font-medium transition-colors duration-200 ${
+              location.pathname === '/history' ? 'text-primary' : 'text-foreground/80 hover:text-primary'
+            }`}
           >
             History
-          </button>
-          <button 
-            onClick={() => inactiveFeatureAlert('Profile')}
-            className="font-medium text-foreground/60 cursor-not-allowed"
+          </Link>
+          <Link 
+            to="/profile" 
+            className={`font-medium transition-colors duration-200 ${
+              location.pathname === '/profile' ? 'text-primary' : 'text-foreground/80 hover:text-primary'
+            }`}
           >
             Profile
-          </button>
+          </Link>
         </nav>
         
         {/* Mobile menu button */}
@@ -95,24 +99,24 @@ const Navbar = () => {
             >
               Find a Ride
             </Link>
-            <button 
-              onClick={() => {
-                inactiveFeatureAlert('History');
-                setIsMenuOpen(false);
-              }}
-              className="font-medium py-2 text-left text-foreground/60 cursor-not-allowed"
+            <Link 
+              to="/history" 
+              className={`font-medium py-2 text-left transition-colors duration-200 ${
+                location.pathname === '/history' ? 'text-primary' : 'text-foreground/80'
+              }`}
+              onClick={() => setIsMenuOpen(false)}
             >
               History
-            </button>
-            <button 
-              onClick={() => {
-                inactiveFeatureAlert('Profile');
-                setIsMenuOpen(false);
-              }}
-              className="font-medium py-2 text-left text-foreground/60 cursor-not-allowed"
+            </Link>
+            <Link 
+              to="/profile" 
+              className={`font-medium py-2 text-left transition-colors duration-200 ${
+                location.pathname === '/profile' ? 'text-primary' : 'text-foreground/80'
+              }`}
+              onClick={() => setIsMenuOpen(false)}
             >
               Profile
-            </button>
+            </Link>
           </div>
         </div>
       )}

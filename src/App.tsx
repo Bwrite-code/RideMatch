@@ -7,6 +7,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import RideMatch from "./pages/RideMatch";
 import NotFound from "./pages/NotFound";
+import BikeAnimation from "./components/BikeAnimation";
+import History from "./pages/History";
+import Profile from "./pages/Profile";
 
 const queryClient = new QueryClient();
 
@@ -15,10 +18,13 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <BikeAnimation />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/ride-match" element={<RideMatch />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/profile" element={<Profile />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -24,13 +24,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-block mb-4">
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 animate-fade-in">
+            {/* <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 animate-fade-in">
               New for Students
-            </span>
+            </span> */}
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 animate-slide-up" style={{ animationDelay: '0.1s' }}>
-            <span className="text-gradient">Find Your Ride </span> 
+            <span className="text-gradient ">Find Your Ride </span> 
             <span className="block">Partner in Seconds</span>
           </h1>
           
